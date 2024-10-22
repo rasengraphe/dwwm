@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../DWWM-travail-test/DWWM-main/html+css"
+		},
+		{
+			"path": "../../mes fichiers AFPA/sebastien2/tron-legacy-librairie"
+		},
+		{
+			"path": "../../B-youtube"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Boots-open"
+	}
+}

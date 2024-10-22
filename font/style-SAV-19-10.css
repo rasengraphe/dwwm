@@ -1,0 +1,130 @@
+/* 
+    Mes couleurs
+    bleu-vert : #2A4E5C;
+    bleu-claire : #DFF7FF;
+    bleu-fonce : #116B8E;
+    blanc-casse : #F7F4EF;
+    brun : #874705,
+
+    Mes fonts :
+
+@font-face {
+  font-family: "titrage";
+  src: url("../font/Poppins-Thin.ttf");
+  font\BRLNSB.ttf
+  font\BRLNSDB.ttf
+  font\BRLNSR.ttf
+}
+
+@font-face {
+  font-family: "main";
+  src: url("../font/Poppins-Regular.ttf");
+}
+
+* {
+  font-family: "main";
+}
+
+} */
+
+/* header button {
+  height: 80px;
+  height: 80px;
+} */
+
+@font-face {
+  font-family: "titrage";
+  src: url("/font/BRLNSDB.ttf");
+  
+}
+
+
+
+.logo {
+  max-width: 5%;
+
+}
+h1,h2,h3 {
+  font-size: clamp(1.6rem, 2.5vw, 2.4rem) !important;
+  font-family: "titrage";
+} 
+
+.cardheader {
+  height: 180px;
+}
+.cardheader img {
+  max-width: 100%;
+  height: 170px;
+}
+.t-25{
+  width: 40%;
+}
+
+.sizeboxserv{
+  width: 30%;
+}
+
+.t-img-s {
+  min-width: 100%; /* image s'adapte à son conteneur */
+  height: auto; /* conserver les proportions */
+}
+/* Paragraphes en bleu par défaut */
+
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1200px) {
+  .t-25 {
+  
+      background-color: red;
+
+  }
+
+  .sizeboxserv{
+    width: 25%;
+  }
+  /* .pecran {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+  } */
+  .logo {
+    width: 12%;
+    
+  }
+  .card {
+    width: 100%;
+    align-self: stretch !important;
+   
+  }
+
+  .tcard {
+    width: 100%;
+    align-self: stretch !important;
+  }
+  
+  .cardheader img {
+    max-width: 100%;
+    height: 170px;
+  }
+}
+
+@media all and (min-width: 760px) and (max-width: 1200px) {
+
+  .t-25{
+    width: 45%;
+    background-color:blueviolet;
+  }
+
+  .sizeboxserv{
+    width: 35%;
+    background-color:blueviolet;
+  }
+
+  .tcard {
+    width: 40%;
+    align-self: stretch !important;
+    background-color:blueviolet;
+  }
+} 
